@@ -1,0 +1,828 @@
+{
+    "_Z11gemm_kerneliiiffPfS_S_": {
+        "%rd3": [
+            {
+                "reg": "%rd3",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd22",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd19",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 5
+            },
+            {
+                "reg": "%r23",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z11gemm_kerneliiiffPfS_S__param_7",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 22
+            },
+            {
+                "reg": "%r5",
+                "opcode": "shl.b32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 3
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 4,
+                "child_num": 3,
+                "start_line": 3
+            },
+            {
+                "reg": "%r4",
+                "opcode": "add.s32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "9",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 4
+            },
+            {
+                "reg": "%r19",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 16
+            },
+            {
+                "reg": "%r18",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 16
+            },
+            {
+                "reg": "%r20",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 16
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mul.lo.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 11
+            },
+            {
+                "reg": "%r3",
+                "opcode": "mov.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 11
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 18
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 19
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 17
+            },
+            {
+                "reg": "%r22",
+                "opcode": "mov.u32",
+                "parent": 14,
+                "child_num": 1,
+                "start_line": 13
+            },
+            {
+                "reg": "%r21",
+                "opcode": "mov.u32",
+                "parent": 14,
+                "child_num": 1,
+                "start_line": 13
+            },
+            {
+                "reg": "%tid.y",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 12
+            },
+            {
+                "reg": "%ctaid.y",
+                "opcode": "",
+                "parent": 19,
+                "child_num": 0,
+                "start_line": 14
+            },
+            {
+                "reg": "%ntid.y",
+                "opcode": "",
+                "parent": 20,
+                "child_num": 0,
+                "start_line": 15
+            }
+        ],
+        "%rd31": [
+            {
+                "reg": "%rd31",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 12
+            },
+            {
+                "reg": "%rd24",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 12
+            },
+            {
+                "reg": "%rd20",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 46
+            },
+            {
+                "reg": "%r5",
+                "opcode": "shl.b32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 13
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 13
+            },
+            {
+                "reg": "_Z11gemm_kerneliiiffPfS_S__param_5",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 50
+            },
+            {
+                "reg": "%r4",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 30
+            },
+            {
+                "reg": "9",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 30
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mul.lo.s32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 37
+            },
+            {
+                "reg": "%r3",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 37
+            },
+            {
+                "reg": "%r22",
+                "opcode": "mov.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 39
+            },
+            {
+                "reg": "%r21",
+                "opcode": "mov.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 39
+            },
+            {
+                "reg": "%tid.y",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 38
+            },
+            {
+                "reg": "%ctaid.y",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 40
+            },
+            {
+                "reg": "%ntid.y",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 41
+            }
+        ],
+        "%rd29": [
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 13
+            },
+            {
+                "reg": "%rd26",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 13
+            },
+            {
+                "reg": "%rd20",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 56
+            },
+            {
+                "reg": "%r31",
+                "opcode": "or.b32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 14
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 14
+            },
+            {
+                "reg": "_Z11gemm_kerneliiiffPfS_S__param_5",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 60
+            },
+            {
+                "reg": "%r30",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 15
+            },
+            {
+                "reg": "2",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 15
+            },
+            {
+                "reg": "%r29",
+                "opcode": "shl.b32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 16
+            },
+            {
+                "reg": "%r28",
+                "opcode": "shl.b32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 16
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mul.lo.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 17
+            },
+            {
+                "reg": "9",
+                "opcode": "",
+                "parent": 9,
+                "child_num": 0,
+                "start_line": 17
+            },
+            {
+                "reg": "%r3",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 18
+            },
+            {
+                "reg": "9",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 18
+            },
+            {
+                "reg": "%r22",
+                "opcode": "mov.u32",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 49
+            },
+            {
+                "reg": "%r21",
+                "opcode": "mov.u32",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 49
+            },
+            {
+                "reg": "%tid.y",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 48
+            },
+            {
+                "reg": "%ctaid.y",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 50
+            },
+            {
+                "reg": "%ntid.y",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 51
+            }
+        ],
+        "%rd30": [
+            {
+                "reg": "%rd30",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 21
+            },
+            {
+                "reg": "%rd25",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 21
+            },
+            {
+                "reg": "%rd21",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 59
+            },
+            {
+                "reg": "%r27",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 22
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 22
+            },
+            {
+                "reg": "_Z11gemm_kerneliiiffPfS_S__param_6",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 61
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 4,
+                "child_num": 3,
+                "start_line": 23
+            },
+            {
+                "reg": "1024",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 23
+            },
+            {
+                "reg": "%r19",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 54
+            },
+            {
+                "reg": "%r18",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 54
+            },
+            {
+                "reg": "%r20",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 54
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 9,
+                "child_num": 0,
+                "start_line": 56
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 57
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 55
+            }
+        ],
+        "%rd32": [
+            {
+                "reg": "%rd32",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd20",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 88
+            },
+            {
+                "reg": "%r34",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 5
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 5
+            },
+            {
+                "reg": "_Z11gemm_kerneliiiffPfS_S__param_5",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 92
+            },
+            {
+                "reg": "%r37",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 6
+            },
+            {
+                "reg": "%r5",
+                "opcode": "shl.b32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 6
+            },
+            {
+                "reg": "%r37",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 22
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 22
+            },
+            {
+                "reg": "%r4",
+                "opcode": "add.s32",
+                "parent": 8,
+                "child_num": 2,
+                "start_line": 72
+            },
+            {
+                "reg": "9",
+                "opcode": "",
+                "parent": 8,
+                "child_num": 0,
+                "start_line": 72
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 9,
+                "child_num": 0,
+                "start_line": 59
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mul.lo.s32",
+                "parent": 11,
+                "child_num": 2,
+                "start_line": 79
+            },
+            {
+                "reg": "%r3",
+                "opcode": "mov.u32",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 79
+            },
+            {
+                "reg": "%r22",
+                "opcode": "mov.u32",
+                "parent": 14,
+                "child_num": 1,
+                "start_line": 81
+            },
+            {
+                "reg": "%r21",
+                "opcode": "mov.u32",
+                "parent": 14,
+                "child_num": 1,
+                "start_line": 81
+            },
+            {
+                "reg": "%tid.y",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 80
+            },
+            {
+                "reg": "%ctaid.y",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 82
+            },
+            {
+                "reg": "%ntid.y",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 83
+            }
+        ],
+        "%rd33": [
+            {
+                "reg": "%rd33",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 9
+            },
+            {
+                "reg": "%rd27",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 9
+            },
+            {
+                "reg": "%rd21",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 91
+            },
+            {
+                "reg": "%r33",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 10
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 10
+            },
+            {
+                "reg": "_Z11gemm_kerneliiiffPfS_S__param_6",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 93
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 4,
+                "child_num": 3,
+                "start_line": 11
+            },
+            {
+                "reg": "%r32",
+                "opcode": "shl.b32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 11
+            },
+            {
+                "reg": "%r19",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 86
+            },
+            {
+                "reg": "%r18",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 86
+            },
+            {
+                "reg": "%r20",
+                "opcode": "mov.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 86
+            },
+            {
+                "reg": "%r37",
+                "opcode": "add.s32",
+                "parent": 8,
+                "child_num": 2,
+                "start_line": 12
+            },
+            {
+                "reg": "9",
+                "opcode": "",
+                "parent": 8,
+                "child_num": 0,
+                "start_line": 12
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 9,
+                "child_num": 0,
+                "start_line": 88
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 89
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 87
+            },
+            {
+                "reg": "%r37",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 24
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 24
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 61
+            }
+        ]
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "_Z14invert_mappingPfS_ii": {
+        "%rd26": [
+            {
+                "reg": "%rd26",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 9
+            },
+            {
+                "reg": "%rd20",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 9
+            },
+            {
+                "reg": "%rd17",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 30
+            },
+            {
+                "reg": "%r19",
+                "opcode": "mad.lo.s32",
+                "parent": 2,
+                "child_num": 3,
+                "start_line": 10
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 10
+            },
+            {
+                "reg": "_Z14invert_mappingPfS_ii_param_0",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 35
+            },
+            {
+                "reg": "%r12",
+                "opcode": "ld.param.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 11
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 4,
+                "child_num": 3,
+                "start_line": 11
+            },
+            {
+                "reg": "2",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 11
+            },
+            {
+                "reg": "_Z14invert_mappingPfS_ii_param_3",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 32
+            },
+            {
+                "reg": "%r14",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "%r13",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "%r15",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 28
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 29
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 27
+            }
+        ],
+        "%rd28": [
+            {
+                "reg": "%rd28",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd25",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd17",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 57
+            },
+            {
+                "reg": "%r21",
+                "opcode": "mad.lo.s32",
+                "parent": 2,
+                "child_num": 3,
+                "start_line": 5
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 5
+            },
+            {
+                "reg": "_Z14invert_mappingPfS_ii_param_0",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 62
+            },
+            {
+                "reg": "%r12",
+                "opcode": "ld.param.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 6
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 4,
+                "child_num": 3,
+                "start_line": 6
+            },
+            {
+                "reg": "%r24",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 6
+            },
+            {
+                "reg": "_Z14invert_mappingPfS_ii_param_3",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 59
+            },
+            {
+                "reg": "%r14",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 53
+            },
+            {
+                "reg": "%r13",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 53
+            },
+            {
+                "reg": "%r15",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 53
+            },
+            {
+                "reg": "%r24",
+                "opcode": "mov.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 20
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 9,
+                "child_num": 0,
+                "start_line": 20
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 55
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 56
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 54
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 14,
+                "child_num": 0,
+                "start_line": 44
+            }
+        ]
+    },
+    "_Z11kmeansPointPfiiiPiS_S_S0_": {}
+}

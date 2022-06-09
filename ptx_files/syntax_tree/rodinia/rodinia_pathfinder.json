@@ -1,0 +1,351 @@
+{
+    "_Z14dynproc_kerneliPiS_S_iiii": {
+        "%rd7": [
+            {
+                "reg": "%rd7",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd5",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd6",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%r4",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_2",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 24
+            },
+            {
+                "reg": "%r2",
+                "opcode": "sub.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 12
+            },
+            {
+                "reg": "%r3",
+                "opcode": "mov.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 12
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mul.lo.s32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 14
+            },
+            {
+                "reg": "%r20",
+                "opcode": "ld.param.u32",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 14
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 8,
+                "child_num": 0,
+                "start_line": 13
+            },
+            {
+                "reg": "%r23",
+                "opcode": "sub.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 15
+            },
+            {
+                "reg": "%r24",
+                "opcode": "mov.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 15
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_7",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 20
+            },
+            {
+                "reg": "%r22",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 17
+            },
+            {
+                "reg": "%r21",
+                "opcode": "shl.b32",
+                "parent": 12,
+                "child_num": 2,
+                "start_line": 17
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 16
+            },
+            {
+                "reg": "256",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 18
+            },
+            {
+                "reg": "%r17",
+                "opcode": "ld.param.u32",
+                "parent": 16,
+                "child_num": 1,
+                "start_line": 19
+            },
+            {
+                "reg": "1",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 19
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_0",
+                "opcode": "",
+                "parent": 19,
+                "child_num": 0,
+                "start_line": 26
+            }
+        ],
+        "%rd9": [
+            {
+                "reg": "%rd9",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd8",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 48
+            },
+            {
+                "reg": "%r60",
+                "opcode": "sub.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_1",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 83
+            },
+            {
+                "reg": "%r48",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 25
+            },
+            {
+                "reg": "%r20",
+                "opcode": "ld.param.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 25
+            },
+            {
+                "reg": "%r47",
+                "opcode": "mad.lo.s32",
+                "parent": 7,
+                "child_num": 3,
+                "start_line": 26
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mul.lo.s32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 26
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_7",
+                "opcode": "",
+                "parent": 8,
+                "child_num": 0,
+                "start_line": 78
+            },
+            {
+                "reg": "%r19",
+                "opcode": "ld.param.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 27
+            },
+            {
+                "reg": "%r18",
+                "opcode": "ld.param.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 27
+            },
+            {
+                "reg": "%r3",
+                "opcode": "mov.u32",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 27
+            },
+            {
+                "reg": "%r23",
+                "opcode": "sub.s32",
+                "parent": 10,
+                "child_num": 2,
+                "start_line": 73
+            },
+            {
+                "reg": "%r24",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 73
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_6",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 79
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_4",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 80
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 14,
+                "child_num": 0,
+                "start_line": 71
+            },
+            {
+                "reg": "%r22",
+                "opcode": "mov.u32",
+                "parent": 15,
+                "child_num": 1,
+                "start_line": 75
+            },
+            {
+                "reg": "%r21",
+                "opcode": "shl.b32",
+                "parent": 15,
+                "child_num": 2,
+                "start_line": 75
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 74
+            },
+            {
+                "reg": "256",
+                "opcode": "",
+                "parent": 20,
+                "child_num": 0,
+                "start_line": 76
+            },
+            {
+                "reg": "%r17",
+                "opcode": "ld.param.u32",
+                "parent": 21,
+                "child_num": 1,
+                "start_line": 77
+            },
+            {
+                "reg": "1",
+                "opcode": "",
+                "parent": 21,
+                "child_num": 0,
+                "start_line": 77
+            },
+            {
+                "reg": "_Z14dynproc_kerneliPiS_S_iiii_param_0",
+                "opcode": "",
+                "parent": 24,
+                "child_num": 0,
+                "start_line": 84
+            }
+        ]
+    }
+}

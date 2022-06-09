@@ -1,0 +1,1616 @@
+{
+    "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4_": {
+        "%rd33": [
+            {
+                "reg": "%rd33",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd32",
+                "opcode": "shl.b64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd24",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 36
+            },
+            {
+                "reg": "%rd31",
+                "opcode": "add.s64",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "5",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_3",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 41
+            },
+            {
+                "reg": "%rd5",
+                "opcode": "ld.global.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd30",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 23
+            },
+            {
+                "reg": "%r110",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 25
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 25
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 8
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 35
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 26
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 34
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 14,
+                "child_num": 0,
+                "start_line": 42
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 33
+            }
+        ],
+        "%rd37": [
+            {
+                "reg": "%rd37",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd36",
+                "opcode": "shl.b64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd24",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 62
+            },
+            {
+                "reg": "%rd35",
+                "opcode": "add.s64",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "5",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_3",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 67
+            },
+            {
+                "reg": "%rd5",
+                "opcode": "ld.global.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd34",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 49
+            },
+            {
+                "reg": "%r110",
+                "opcode": "add.s32",
+                "parent": 8,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 51
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 51
+            },
+            {
+                "reg": "%r110",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 16
+            },
+            {
+                "reg": "128",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 16
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 61
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 52
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 52
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 34
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 68
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 59
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 18,
+                "child_num": 0,
+                "start_line": 60
+            }
+        ],
+        "%rd57": [
+            {
+                "reg": "%rd57",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd43",
+                "opcode": "add.s64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 3
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 0,
+                "child_num": 0,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd42",
+                "opcode": "mul.wide.s32",
+                "parent": 1,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 3,
+                "child_num": 1,
+                "start_line": 143
+            },
+            {
+                "reg": "%r65",
+                "opcode": "ld.global.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 5
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 5
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 5,
+                "child_num": 0,
+                "start_line": 150
+            },
+            {
+                "reg": "%rd41",
+                "opcode": "add.s64",
+                "parent": 6,
+                "child_num": 2,
+                "start_line": 6
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 7
+            },
+            {
+                "reg": "%rd40",
+                "opcode": "mul.wide.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 7
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 133
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 10,
+                "child_num": 2,
+                "start_line": 133
+            },
+            {
+                "reg": "%r112",
+                "opcode": "mov.u32",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 8
+            },
+            {
+                "reg": "24",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 8
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 143
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 134
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 134
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 14,
+                "child_num": 0,
+                "start_line": 18
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 150
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 141
+            }
+        ],
+        "%rd13": [
+            {
+                "reg": "%rd13",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd46",
+                "opcode": "shl.b64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd24",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 154
+            },
+            {
+                "reg": "%rd45",
+                "opcode": "add.s64",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "5",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_3",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 159
+            },
+            {
+                "reg": "%rd44",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd6",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd12",
+                "opcode": "ld.global.u64",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 4
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 41
+            },
+            {
+                "reg": "%rd57",
+                "opcode": "add.s64",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 10
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 152
+            },
+            {
+                "reg": "%rd43",
+                "opcode": "add.s64",
+                "parent": 11,
+                "child_num": 2,
+                "start_line": 13
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 13
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 14
+            },
+            {
+                "reg": "%rd42",
+                "opcode": "mul.wide.s32",
+                "parent": 13,
+                "child_num": 2,
+                "start_line": 14
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 15,
+                "child_num": 1,
+                "start_line": 153
+            },
+            {
+                "reg": "%r65",
+                "opcode": "ld.global.u32",
+                "parent": 16,
+                "child_num": 1,
+                "start_line": 15
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 15
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 160
+            },
+            {
+                "reg": "%rd41",
+                "opcode": "add.s64",
+                "parent": 18,
+                "child_num": 2,
+                "start_line": 16
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 21,
+                "child_num": 2,
+                "start_line": 17
+            },
+            {
+                "reg": "%rd40",
+                "opcode": "mul.wide.s32",
+                "parent": 21,
+                "child_num": 2,
+                "start_line": 17
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 22,
+                "child_num": 1,
+                "start_line": 143
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 22,
+                "child_num": 2,
+                "start_line": 143
+            },
+            {
+                "reg": "%r112",
+                "opcode": "mov.u32",
+                "parent": 23,
+                "child_num": 1,
+                "start_line": 18
+            },
+            {
+                "reg": "24",
+                "opcode": "",
+                "parent": 23,
+                "child_num": 0,
+                "start_line": 18
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 24,
+                "child_num": 1,
+                "start_line": 153
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 25,
+                "child_num": 1,
+                "start_line": 144
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 25,
+                "child_num": 0,
+                "start_line": 144
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 26,
+                "child_num": 0,
+                "start_line": 28
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 28,
+                "child_num": 0,
+                "start_line": 160
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 29,
+                "child_num": 0,
+                "start_line": 151
+            }
+        ],
+        "%rd14": [
+            {
+                "reg": "%rd14",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd47",
+                "opcode": "shl.b64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd25",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 165
+            },
+            {
+                "reg": "%rd45",
+                "opcode": "add.s64",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "3",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_4",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 168
+            },
+            {
+                "reg": "%rd44",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 13
+            },
+            {
+                "reg": "%rd6",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 13
+            },
+            {
+                "reg": "%rd12",
+                "opcode": "ld.global.u64",
+                "parent": 7,
+                "child_num": 1,
+                "start_line": 14
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 51
+            },
+            {
+                "reg": "%rd57",
+                "opcode": "add.s64",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 20
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 162
+            },
+            {
+                "reg": "%rd43",
+                "opcode": "add.s64",
+                "parent": 11,
+                "child_num": 2,
+                "start_line": 23
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 23
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 24
+            },
+            {
+                "reg": "%rd42",
+                "opcode": "mul.wide.s32",
+                "parent": 13,
+                "child_num": 2,
+                "start_line": 24
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 15,
+                "child_num": 1,
+                "start_line": 163
+            },
+            {
+                "reg": "%r65",
+                "opcode": "ld.global.u32",
+                "parent": 16,
+                "child_num": 1,
+                "start_line": 25
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 25
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 170
+            },
+            {
+                "reg": "%rd41",
+                "opcode": "add.s64",
+                "parent": 18,
+                "child_num": 2,
+                "start_line": 26
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 21,
+                "child_num": 2,
+                "start_line": 27
+            },
+            {
+                "reg": "%rd40",
+                "opcode": "mul.wide.s32",
+                "parent": 21,
+                "child_num": 2,
+                "start_line": 27
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 22,
+                "child_num": 1,
+                "start_line": 153
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 22,
+                "child_num": 2,
+                "start_line": 153
+            },
+            {
+                "reg": "%r112",
+                "opcode": "mov.u32",
+                "parent": 23,
+                "child_num": 1,
+                "start_line": 28
+            },
+            {
+                "reg": "24",
+                "opcode": "",
+                "parent": 23,
+                "child_num": 0,
+                "start_line": 28
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 24,
+                "child_num": 1,
+                "start_line": 163
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 25,
+                "child_num": 1,
+                "start_line": 154
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 25,
+                "child_num": 0,
+                "start_line": 154
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 26,
+                "child_num": 0,
+                "start_line": 38
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 28,
+                "child_num": 0,
+                "start_line": 170
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 29,
+                "child_num": 0,
+                "start_line": 161
+            }
+        ],
+        "%rd59": [
+            {
+                "reg": "%rd59",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd7",
+                "opcode": "add.s64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 25
+            },
+            {
+                "reg": "%rd48",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 25
+            },
+            {
+                "reg": "%rd2",
+                "opcode": "cvta.to.global.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 110
+            },
+            {
+                "reg": "8192",
+                "opcode": "",
+                "parent": 1,
+                "child_num": 0,
+                "start_line": 110
+            },
+            {
+                "reg": "%r73",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 26
+            },
+            {
+                "reg": "32",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 26
+            },
+            {
+                "reg": "%rd24",
+                "opcode": "ld.param.u64",
+                "parent": 3,
+                "child_num": 1,
+                "start_line": 233
+            },
+            {
+                "reg": "%r113",
+                "opcode": "mov.u32",
+                "parent": 5,
+                "child_num": 1,
+                "start_line": 27
+            },
+            {
+                "reg": "%r72",
+                "opcode": "cvt.u32.u64",
+                "parent": 5,
+                "child_num": 1,
+                "start_line": 27
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_3",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 238
+            },
+            {
+                "reg": "%r18",
+                "opcode": "add.s32",
+                "parent": 8,
+                "child_num": 2,
+                "start_line": 40
+            },
+            {
+                "reg": "%rd12",
+                "opcode": "ld.global.u64",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 28
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 111
+            },
+            {
+                "reg": "384",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 111
+            },
+            {
+                "reg": "%rd57",
+                "opcode": "add.s64",
+                "parent": 12,
+                "child_num": 2,
+                "start_line": 89
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 231
+            },
+            {
+                "reg": "%rd43",
+                "opcode": "add.s64",
+                "parent": 15,
+                "child_num": 2,
+                "start_line": 92
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 92
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 17,
+                "child_num": 1,
+                "start_line": 93
+            },
+            {
+                "reg": "%rd42",
+                "opcode": "mul.wide.s32",
+                "parent": 17,
+                "child_num": 2,
+                "start_line": 93
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 19,
+                "child_num": 1,
+                "start_line": 232
+            },
+            {
+                "reg": "%r65",
+                "opcode": "ld.global.u32",
+                "parent": 20,
+                "child_num": 1,
+                "start_line": 94
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 20,
+                "child_num": 0,
+                "start_line": 94
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 21,
+                "child_num": 0,
+                "start_line": 239
+            },
+            {
+                "reg": "%rd41",
+                "opcode": "add.s64",
+                "parent": 22,
+                "child_num": 2,
+                "start_line": 95
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 25,
+                "child_num": 2,
+                "start_line": 96
+            },
+            {
+                "reg": "%rd40",
+                "opcode": "mul.wide.s32",
+                "parent": 25,
+                "child_num": 2,
+                "start_line": 96
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 26,
+                "child_num": 1,
+                "start_line": 222
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 26,
+                "child_num": 2,
+                "start_line": 222
+            },
+            {
+                "reg": "%r112",
+                "opcode": "mov.u32",
+                "parent": 27,
+                "child_num": 1,
+                "start_line": 97
+            },
+            {
+                "reg": "24",
+                "opcode": "",
+                "parent": 27,
+                "child_num": 0,
+                "start_line": 97
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 28,
+                "child_num": 1,
+                "start_line": 232
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 29,
+                "child_num": 1,
+                "start_line": 223
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 29,
+                "child_num": 0,
+                "start_line": 223
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 30,
+                "child_num": 0,
+                "start_line": 107
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 32,
+                "child_num": 0,
+                "start_line": 239
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 33,
+                "child_num": 0,
+                "start_line": 230
+            }
+        ],
+        "%rd58": [
+            {
+                "reg": "%rd58",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd8",
+                "opcode": "add.s64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 31
+            },
+            {
+                "reg": "%rd49",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 31
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "cvta.to.global.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 117
+            },
+            {
+                "reg": "2048",
+                "opcode": "",
+                "parent": 1,
+                "child_num": 0,
+                "start_line": 117
+            },
+            {
+                "reg": "%r73",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 32
+            },
+            {
+                "reg": "8",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 32
+            },
+            {
+                "reg": "%rd25",
+                "opcode": "ld.param.u64",
+                "parent": 3,
+                "child_num": 1,
+                "start_line": 242
+            },
+            {
+                "reg": "%r113",
+                "opcode": "mov.u32",
+                "parent": 5,
+                "child_num": 1,
+                "start_line": 35
+            },
+            {
+                "reg": "%r72",
+                "opcode": "cvt.u32.u64",
+                "parent": 5,
+                "child_num": 1,
+                "start_line": 35
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_4",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 245
+            },
+            {
+                "reg": "%r18",
+                "opcode": "add.s32",
+                "parent": 8,
+                "child_num": 2,
+                "start_line": 48
+            },
+            {
+                "reg": "%rd12",
+                "opcode": "ld.global.u64",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 36
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 119
+            },
+            {
+                "reg": "384",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 119
+            },
+            {
+                "reg": "%rd57",
+                "opcode": "add.s64",
+                "parent": 12,
+                "child_num": 2,
+                "start_line": 97
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 239
+            },
+            {
+                "reg": "%rd43",
+                "opcode": "add.s64",
+                "parent": 15,
+                "child_num": 2,
+                "start_line": 100
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 100
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 17,
+                "child_num": 1,
+                "start_line": 101
+            },
+            {
+                "reg": "%rd42",
+                "opcode": "mul.wide.s32",
+                "parent": 17,
+                "child_num": 2,
+                "start_line": 101
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 19,
+                "child_num": 1,
+                "start_line": 240
+            },
+            {
+                "reg": "%r65",
+                "opcode": "ld.global.u32",
+                "parent": 20,
+                "child_num": 1,
+                "start_line": 102
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 20,
+                "child_num": 0,
+                "start_line": 102
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 21,
+                "child_num": 0,
+                "start_line": 247
+            },
+            {
+                "reg": "%rd41",
+                "opcode": "add.s64",
+                "parent": 22,
+                "child_num": 2,
+                "start_line": 103
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 25,
+                "child_num": 2,
+                "start_line": 104
+            },
+            {
+                "reg": "%rd40",
+                "opcode": "mul.wide.s32",
+                "parent": 25,
+                "child_num": 2,
+                "start_line": 104
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 26,
+                "child_num": 1,
+                "start_line": 230
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 26,
+                "child_num": 2,
+                "start_line": 230
+            },
+            {
+                "reg": "%r112",
+                "opcode": "mov.u32",
+                "parent": 27,
+                "child_num": 1,
+                "start_line": 105
+            },
+            {
+                "reg": "24",
+                "opcode": "",
+                "parent": 27,
+                "child_num": 0,
+                "start_line": 105
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 28,
+                "child_num": 1,
+                "start_line": 240
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 29,
+                "child_num": 1,
+                "start_line": 231
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 29,
+                "child_num": 0,
+                "start_line": 231
+            },
+            {
+                "reg": "0",
+                "opcode": "",
+                "parent": 30,
+                "child_num": 0,
+                "start_line": 115
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 32,
+                "child_num": 0,
+                "start_line": 247
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 33,
+                "child_num": 0,
+                "start_line": 238
+            }
+        ],
+        "%rd21": [
+            {
+                "reg": "%rd21",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd9",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd52",
+                "opcode": "shl.b64",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd22",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 155
+            },
+            {
+                "reg": "%rd51",
+                "opcode": "add.s64",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "5",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_5",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 283
+            },
+            {
+                "reg": "%rd5",
+                "opcode": "ld.global.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd50",
+                "opcode": "cvt.s64.s32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 3
+            },
+            {
+                "reg": "%rd29",
+                "opcode": "add.s64",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 267
+            },
+            {
+                "reg": "%r117",
+                "opcode": "mov.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 4
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 9,
+                "child_num": 1,
+                "start_line": 269
+            },
+            {
+                "reg": "%rd28",
+                "opcode": "mul.wide.s32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 269
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 15
+            },
+            {
+                "reg": "%rd23",
+                "opcode": "ld.param.u64",
+                "parent": 11,
+                "child_num": 1,
+                "start_line": 279
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 270
+            },
+            {
+                "reg": "656",
+                "opcode": "",
+                "parent": 12,
+                "child_num": 0,
+                "start_line": 270
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 278
+            },
+            {
+                "reg": "_Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4__param_2",
+                "opcode": "",
+                "parent": 14,
+                "child_num": 0,
+                "start_line": 286
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 277
+            }
+        ]
+    }
+}

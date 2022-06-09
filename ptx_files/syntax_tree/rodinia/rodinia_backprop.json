@@ -1,0 +1,149 @@
+{
+    "_Z22bpnn_layerforward_CUDAPfS_S_S_ii": {},
+    "_Z24bpnn_adjust_weights_cudaPfiS_iS_S_": {
+        "%rd17": [
+            {
+                "reg": "%rd17",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd16",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd7",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 34
+            },
+            {
+                "reg": "%r14",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z24bpnn_adjust_weights_cudaPfiS_iS_S__param_5",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 58
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 5
+            },
+            {
+                "reg": "1",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 5
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 51
+            }
+        ],
+        "%rd18": [
+            {
+                "reg": "%rd18",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd16",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd6",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 62
+            },
+            {
+                "reg": "%r14",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 7
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 7
+            },
+            {
+                "reg": "_Z24bpnn_adjust_weights_cudaPfiS_iS_S__param_4",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 64
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mov.u32",
+                "parent": 4,
+                "child_num": 1,
+                "start_line": 10
+            },
+            {
+                "reg": "1",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 10
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 7,
+                "child_num": 0,
+                "start_line": 56
+            }
+        ]
+    }
+}

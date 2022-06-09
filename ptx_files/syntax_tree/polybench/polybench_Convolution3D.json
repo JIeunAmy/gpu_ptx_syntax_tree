@@ -1,0 +1,414 @@
+{
+    "_Z20convolution3D_kerneliiiPfS_i": {
+        "%rd6": [
+            {
+                "reg": "%rd6",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd5",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 9
+            },
+            {
+                "reg": "%r20",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z20convolution3D_kerneliiiPfS_i_param_3",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 36
+            },
+            {
+                "reg": "%r19",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 3
+            },
+            {
+                "reg": "-65793",
+                "opcode": "",
+                "parent": 4,
+                "child_num": 0,
+                "start_line": 3
+            },
+            {
+                "reg": "%r17",
+                "opcode": "add.s32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "%r18",
+                "opcode": "shl.b32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 4
+            },
+            {
+                "reg": "%r16",
+                "opcode": "shl.b32",
+                "parent": 9,
+                "child_num": 2,
+                "start_line": 6
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 9,
+                "child_num": 3,
+                "start_line": 6
+            },
+            {
+                "reg": "%r3",
+                "opcode": "ld.param.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 5
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 10,
+                "child_num": 0,
+                "start_line": 5
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mad.lo.s32",
+                "parent": 11,
+                "child_num": 3,
+                "start_line": 7
+            },
+            {
+                "reg": "8",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 7
+            },
+            {
+                "reg": "%r8",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 30
+            },
+            {
+                "reg": "%r7",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 30
+            },
+            {
+                "reg": "%r9",
+                "opcode": "mov.u32",
+                "parent": 12,
+                "child_num": 1,
+                "start_line": 30
+            },
+            {
+                "reg": "_Z20convolution3D_kerneliiiPfS_i_param_5",
+                "opcode": "",
+                "parent": 13,
+                "child_num": 0,
+                "start_line": 34
+            },
+            {
+                "reg": "%r11",
+                "opcode": "mov.u32",
+                "parent": 15,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "%r10",
+                "opcode": "mov.u32",
+                "parent": 15,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "%r12",
+                "opcode": "mov.u32",
+                "parent": 15,
+                "child_num": 1,
+                "start_line": 26
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 32
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 18,
+                "child_num": 0,
+                "start_line": 33
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 19,
+                "child_num": 0,
+                "start_line": 31
+            },
+            {
+                "reg": "%ctaid.y",
+                "opcode": "",
+                "parent": 21,
+                "child_num": 0,
+                "start_line": 28
+            },
+            {
+                "reg": "%ntid.y",
+                "opcode": "",
+                "parent": 22,
+                "child_num": 0,
+                "start_line": 29
+            },
+            {
+                "reg": "%tid.y",
+                "opcode": "",
+                "parent": 23,
+                "child_num": 0,
+                "start_line": 27
+            }
+        ],
+        "%rd8": [
+            {
+                "reg": "%rd8",
+                "opcode": "add.s64",
+                "parent": -1,
+                "child_num": 2,
+                "start_line": 0
+            },
+            {
+                "reg": "%rd3",
+                "opcode": "cvta.to.global.u64",
+                "parent": 0,
+                "child_num": 1,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd7",
+                "opcode": "mul.wide.s32",
+                "parent": 0,
+                "child_num": 2,
+                "start_line": 1
+            },
+            {
+                "reg": "%rd1",
+                "opcode": "ld.param.u64",
+                "parent": 1,
+                "child_num": 1,
+                "start_line": 22
+            },
+            {
+                "reg": "%r19",
+                "opcode": "add.s32",
+                "parent": 2,
+                "child_num": 2,
+                "start_line": 2
+            },
+            {
+                "reg": "4",
+                "opcode": "",
+                "parent": 2,
+                "child_num": 0,
+                "start_line": 2
+            },
+            {
+                "reg": "_Z20convolution3D_kerneliiiPfS_i_param_3",
+                "opcode": "",
+                "parent": 3,
+                "child_num": 0,
+                "start_line": 49
+            },
+            {
+                "reg": "%r17",
+                "opcode": "add.s32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 17
+            },
+            {
+                "reg": "%r18",
+                "opcode": "shl.b32",
+                "parent": 4,
+                "child_num": 2,
+                "start_line": 17
+            },
+            {
+                "reg": "%r16",
+                "opcode": "shl.b32",
+                "parent": 7,
+                "child_num": 2,
+                "start_line": 19
+            },
+            {
+                "reg": "%r1",
+                "opcode": "mad.lo.s32",
+                "parent": 7,
+                "child_num": 3,
+                "start_line": 19
+            },
+            {
+                "reg": "%r3",
+                "opcode": "ld.param.u32",
+                "parent": 8,
+                "child_num": 1,
+                "start_line": 18
+            },
+            {
+                "reg": "16",
+                "opcode": "",
+                "parent": 8,
+                "child_num": 0,
+                "start_line": 18
+            },
+            {
+                "reg": "%r2",
+                "opcode": "mad.lo.s32",
+                "parent": 9,
+                "child_num": 3,
+                "start_line": 20
+            },
+            {
+                "reg": "8",
+                "opcode": "",
+                "parent": 9,
+                "child_num": 0,
+                "start_line": 20
+            },
+            {
+                "reg": "%r8",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 43
+            },
+            {
+                "reg": "%r7",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 43
+            },
+            {
+                "reg": "%r9",
+                "opcode": "mov.u32",
+                "parent": 10,
+                "child_num": 1,
+                "start_line": 43
+            },
+            {
+                "reg": "_Z20convolution3D_kerneliiiPfS_i_param_5",
+                "opcode": "",
+                "parent": 11,
+                "child_num": 0,
+                "start_line": 47
+            },
+            {
+                "reg": "%r11",
+                "opcode": "mov.u32",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 39
+            },
+            {
+                "reg": "%r10",
+                "opcode": "mov.u32",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 39
+            },
+            {
+                "reg": "%r12",
+                "opcode": "mov.u32",
+                "parent": 13,
+                "child_num": 1,
+                "start_line": 39
+            },
+            {
+                "reg": "%ctaid.x",
+                "opcode": "",
+                "parent": 15,
+                "child_num": 0,
+                "start_line": 45
+            },
+            {
+                "reg": "%ntid.x",
+                "opcode": "",
+                "parent": 16,
+                "child_num": 0,
+                "start_line": 46
+            },
+            {
+                "reg": "%tid.x",
+                "opcode": "",
+                "parent": 17,
+                "child_num": 0,
+                "start_line": 44
+            },
+            {
+                "reg": "%ctaid.y",
+                "opcode": "",
+                "parent": 19,
+                "child_num": 0,
+                "start_line": 41
+            },
+            {
+                "reg": "%ntid.y",
+                "opcode": "",
+                "parent": 20,
+                "child_num": 0,
+                "start_line": 42
+            },
+            {
+                "reg": "%tid.y",
+                "opcode": "",
+                "parent": 21,
+                "child_num": 0,
+                "start_line": 40
+            }
+        ]
+    }
+}
